@@ -1,4 +1,4 @@
-terraform {
+REPLACE_MEterraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -15,7 +15,7 @@ terraform {
     organization = "REPLACE_ME"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "REPLACE_ME"
     }
   }
 }
