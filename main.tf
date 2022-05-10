@@ -12,10 +12,10 @@ REPLACE_MEterraform {
   required_version = "~> 0.14"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "test-mbali"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "demo-github-actions"
     }
   }
 }
